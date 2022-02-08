@@ -1,0 +1,13 @@
+name: test
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip=20.2.1
+  - Flask==1.0.2
+  - gunicorn==19.9.0
+  - pip:
+    - inference-schema
+    - joblib
+    - scikit-learn
+    - pyenchant
